@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link type="image/x-icon" rel="shortcut icon" href="https://acet.edu.vn/wp-content/themes/acet/assets/images/favicon.png">
+
+    <title>ACET</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css"/>
+    <link rel="stylesheet" href="css/select2.min.css"/>
+    <!-- <link href="css/font-awesome.css" rel="stylesheet"> -->
+    <link href="css/spacings.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+          integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+          crossorigin="anonymous">
+    <link href="images/logo.png" rel="icon">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        function writeCookie(name, value, days) {
+            var date, expires;
+            if (days) {
+                date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString()
+            } else {
+                expires = ""
+            }
+            document.cookie = name + "=" + value + expires + "; path=/"
+        }
+        function readCookie(name) {
+            var i, c, ca, nameEQ = name + "=";
+            ca = document.cookie.split(';');
+            for (i = 0; i < ca.length; i++) {
+                c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1, c.length)
+                }
+                if (c.indexOf(nameEQ) == 0) {
+                    return c.substring(nameEQ.length, c.length)
+                }
+            }
+            return ''
+        }
+
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                    results = regex.exec(location.search);
+            return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        var utm_source = getParameterByName('utm_source');
+        var utm_medium = getParameterByName('utm_medium');
+        var utm_campaign = getParameterByName('utm_campaign');
+
+        if (utm_source != "") {
+            writeCookie('utm_source', utm_source, 30);
+            writeCookie('utm_medium', utm_medium, 30);
+            writeCookie('utm_campaign', utm_campaign, 30);
+        }
+    </script>
+
+</head>
+
+<body data-spy="scroll" data-target="#active_list" data-offset="80">
+
+<nav class="navbar navbar-default navbar-fixed-top center" id="active_list">
+    
+    <div class="row top-header">
+        <div class="con1">
+            <ul class="contact pull-left">
+                <li>
+                    Liên hệ tư vấn miễn phí
+                </li>
+                <li>
+                    TP.HCM(028) 3911 2999  -  Hà Nội(024) 3732 5303
+                </li>
+            </ul>
+            <ul class="seo pull-right">
+                <li class="page-scroll">
+                    <a href="#quatang">EVENT</a>
+                </li>
+                <li class="page-scroll">
+                    <a href="#guongmat">GƯƠNG MẶT FIRST STEPS</a> 
+                </li>
+                <li class="page-scroll">
+                    <a href="#hdngoaikhoa">Hoạt động ngoại khóa</a> 
+                </li>
+                <li class="page-scroll">
+                    <a href="#phuhuynh">Phụ huynh nói về First Steps</a> 
+                </li>
+                <li class="page-scroll">
+                    <a class="btn-register" href="#register">
+                        <span>Đăng ký ngay</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+
+    <div class="con2">
+        <div class="navbar-collapse navbar-inner">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" 
+                aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="images/logo_acet_03.png" class="wow bounceInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                    </a>
+                </div>
+                <div class="logo1">
+                        <a href="index.html">
+                        <img src="images/logo_acet_right_03.png" class="wow bounceInRight" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                        </a>
+                    </div>
+            </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar"> 
+            <ul class="nav navbar-nav">
+                <li class="page-scroll active wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s">
+                    <a href="#about_new">
+                        GIỚI THIỆU
+                    </a>
+                </li>
+                <li class="page-scroll wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                    <a href="#noibat">
+                        LÝ DO CHỌN ACET
+                    </a>
+                </li>
+                <li class="page-scroll wow fadeInDown" data-wow-duration="1.1s" data-wow-delay="0.4s">
+                    <a href="#quatang">
+                        ƯU ĐÃI MÙA THU
+                    </a>
+                </li>
+                <li class="page-scroll wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.5s">
+                    <a href="#register" class="last-child">
+                        LIÊN HỆ
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        </div>
+    </div>
+</nav>
+
+
+<section id="banner1">
+    <div class="container-fluid">
+            <div class="row headergioithieu " style="height: 398px;">
+                    <div class="col-md-12">
+                        <div>
+                            <p class="txt_thanks">
+                                Chúc mừng bạn<br> đã đăng ký thành công
+                            </p>
+                            <p class="link_thanks"><a class="" href="index.html">Bấm vào đây để quay về trang chủ</a></p>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+
+    </div>
+</section>
+
+
+
+
+<section class="footer" style="height: 270px">
+    <div class="container-fluid">
+            <div class="row">
+                <br>
+                <br>
+                    <div class="col-lg-2 col-md-2 col-xs-6 footer-1">
+                        <img src="images/logo-footer.png" class="logo-footer">
+                    </div>
+                    <div class="col-lg-7 col-md-7 hidden-sm hidden-xs footer-2" style="margin-top: 0px;">  
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td>HỒ CHÍ MINH</td>
+                                <td>266 Lê Văn Sỹ, Quận Tân Bính.
+                                    <br>(028) 3991 2999
+                                </td>
+                                <td>187 Võ Thị Sáu, Quận 3, TP.HCM
+                                    <br>(028) 3932 6202
+                                </td>
+                                <td>www.acet.edu.vn
+                                    <br> www.facebook.com/acetvn
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>HÀ NỘI</td>
+                                <td>15 -17 Ngọc Khánh, Ba Đình
+                                    <br> (024) 3732 5303
+                                </td>
+                                <td>Tầng 1, Tòa nhà Ocean Park1
+                                    <br> Đào Duy Anh, Đống Đa
+                                    <br>(024) 3976 526
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            
+                    <div class="col-lg-3 col-md-3 col-xs-6 footer-3">
+                        <img src="images/footer-right.png" width="150%" class="logo-footer1">
+                    </div>
+            
+                    <div class="hidden-lg hidden-md col-sm-10 col-sm-offset-1 col-xs-12">
+                        <img src="images/diachi_acet_03.png" class="address-img">
+                        
+                    </div>
+            </div>
+
+    </div>
+    
+</section>
+
+<!-- jQuery Version 1.11.1 -->
+<script src="js/jquery.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.owl-trai-nghiem').owlCarousel({
+            loop: true,
+            center: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            navText: ["<img src='images/btn-left.png' class='btn_left1'>", "<img src='images/btn-right.png' class='btn_right1'>"],
+            nav: true,
+            dots: false,
+            margin: 20,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1,
+                }
+            }
+        });
+        $('.owl-carousel').owlCarousel({
+            center: true,
+            loop: true,
+            responsiveClass: true,
+            nav: false,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 3,
+                }
+            }
+        })
+
+    });
+</script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Common JS -->
+<script src="js/common.js"></script>
+<!-- WOW -->
+<script src="js/wow.min.js"></script>
+<!--<script src="js/select2.min.js"></script>-->
+<!-- Swiper JS -->
+<script src="js/owl.carousel.min.js"></script>
+<script src="dist/js/swiper.min.js"></script>
+<script type="text/javascript" src="js/lightbox.min.js"></script>
+
+<!--<script src="js/player-0.1.0.min.js"></script>-->
+<script>
+    new WOW().init();
+</script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,
+        slidesPerView: 2,
+        centeredSlides: true,
+        slideToClickedSlide: true,
+        grabCursor: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    });
+</script>
+
+
+<script type="text/javascript">
+
+    function isValidEmail(emailText) {
+        var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
+        return pattern.test(emailText);
+    }
+    ;
+
+    function checkPhoneNumber() {
+        var flag = false;
+        var phone = $('#phone').val().trim(); // ID của trường Số điện thoại
+        phone = phone.replace('(+84)', '0');
+        phone = phone.replace('+84', '0');
+        phone = phone.replace('0084', '0');
+        phone = phone.replace(/ /g, '');
+        if (phone != '') {
+            var firstNumber = phone.substring(0, 2);
+            if ((firstNumber == '09' || firstNumber == '08') && phone.length == 10) {
+                if (phone.match(/^\d{10}/)) {
+                    flag = true;
+                }
+            } else if (firstNumber == '01' && phone.length == 11) {
+                if (phone.match(/^\d{11}/)) {
+                    flag = true;
+                }
+            }
+        }
+        return flag;
+    }
+
+    function checkPhoneNumber_ft() {
+        var flag = false;
+        var phone = $('#phone_ft').val().trim(); // ID của trường Số điện thoại
+        phone = phone.replace('(+84)', '0');
+        phone = phone.replace('+84', '0');
+        phone = phone.replace('0084', '0');
+        phone = phone.replace(/ /g, '');
+        if (phone != '') {
+            var firstNumber = phone.substring(0, 2);
+            if ((firstNumber == '09' || firstNumber == '08') && phone.length == 10) {
+                if (phone.match(/^\d{10}/)) {
+                    flag = true;
+                }
+            } else if (firstNumber == '01' && phone.length == 11) {
+                if (phone.match(/^\d{11}/)) {
+                    flag = true;
+                }
+            }
+        }
+        return flag;
+    }
+
+    function kiemtra() {
+        if ($('#fullname').val() == "") {
+            alert("Vui lòng nhập Họ tên!");
+            $('#fullname').focus();
+        }
+        else if (!checkPhoneNumber()) {
+            alert("Số điện thoại bạn điền không hợp lệ !");
+            $('#phone').focus();
+            return false;
+        }
+        else if ($('#email').val() == "" || !isValidEmail($('#email').val())) {
+            alert("Email phải hợp lệ !");
+            $('#email').focus();
+            return false;
+        }
+        else {
+            var phone = $('#phone').val();
+            var fullname = $('#fullname').val();
+            var email = $('#email').val();
+            var address = $('#address').val();
+            $.ajax({
+                type: "POST",
+                url: "api/register.php",
+                data: {fullname: fullname, email: email, phone: phone, address: address},
+                success: function (data) {
+                    data = JSON.parse(data);
+                    if (data.result === "0") {
+                        alert("Bạn đã đăng ký rồi");
+                    }
+                    else {
+                        window.location.href = "thanks.html";
+                    }
+                }
+            });
+        }
+    }
+
+    function kiemtra_footer() {
+
+        if ($('#fullname_ft').val() == "") {
+            alert("Vui lòng nhập Họ tên!");
+            $('#fullname_ft').focus();
+        }
+
+        else if ($('#email_ft').val() == "" || !isValidEmail($('#email_ft').val())) {
+            alert("Email phải hợp lệ !");
+            $('#email_ft').focus();
+            return false;
+        }
+
+        else if (!checkPhoneNumber_ft()) {
+
+            alert("Số điện thoại bạn điền không hợp lệ !");
+            $('#phone_ft').focus();
+            return false;
+        }
+
+        // else if($('.checkbox_footer').is(':checked')==false ){
+        //   alert(" Vui lòng chọn Villa hoặc Condotel!");
+        //   return false;
+        // }
+        else {
+
+            var phone = $('#phone_ft').val();
+            var fullname = $('#fullname_ft').val();
+            var email = $('#email_ft').val();
+
+            // var villa = $('#villa_ft:checked').val();
+            // var condotel = $('#condotel_ft:checked').val();
+
+
+            $.ajax({
+                type: "POST",
+                url: "api/register.php",
+                data: {fullname: fullname, email: email, phone: phone},
+                success: function (data) {
+                    data = JSON.parse(data);
+                    if (data.result === "0") {
+                        alert("Bạn đã đăng ký rồi");
+                    }
+                    else {
+                        // $('#exampleModal').modal('show');
+                        //      $("#exampleModal").on("hidden.bs.modal", function () {
+                        //          location.reload();
+                        //      });
+                        window.location.href = "thanks.html";
+                    }
+
+                }
+            });
+        }
+
+    }
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,2505 @@
+@font-face {
+    font-family: "Lato-Heavy";
+    src: url("../fonts/Lato-Heavy.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Black";
+    src: url("../fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato-semiBold";
+    src: url("../fonts/LatoSemibold.ttf");
+}
+
+@font-face {
+    font-family: "Lato-Medium";
+    src: url("../fonts/Lato-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Lato-HeavyItalic";
+    src: url("../fonts/Lato-HeavyItalic.ttf");
+}
+
+@font-face {
+    font-family: "Myriad-Pro";
+    src: url("../fonts/Myriad-Pro-Regular.ttf");
+}
+
+body {
+    font-family: "Lato-Black";
+    padding-top: 90px;
+}
+
+h1, h2, h3, h4, h5 {
+}
+
+b {
+    font-family: "Lato-Bold";
+}
+
+/*
+Top Header
+*/
+
+/* Thanks */
+
+.txt_thanks {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.link_thanks {
+    text-align: center;
+}
+
+/* End */
+.navbar-nav {
+    padding-left: 30%;
+}
+
+.seo li a {
+    color: #2c2c34;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+    font-size: 110%;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.5);
+}
+
+#myNavbar ul li a {
+    color: white;
+}
+
+#myNavbar ul li a:hover {
+    background: red;
+}
+
+.li_a1 {
+    text-align: center;
+    padding: 4px 25px 4px 25px !important;
+    border-radius: 10px;
+    background: #d61d62 !important;
+}
+
+.li_a2 {
+    text-align: center;
+    padding: 4px 10px 4px 10px !important;
+    border-radius: 10px;
+    background: #673ba4 !important;
+}
+
+.li_a3 {
+    text-align: center;
+    padding: 4px 10px 4px 10px !important;
+    border-radius: 10px;
+    background: #ebae07 !important;
+}
+
+.li_a4 {
+    text-align: center;
+    padding: 4px 25px 4px 25px !important;
+    border-radius: 10px;
+    background: #2183e0;
+}
+
+.top-header {
+    border-bottom: 1px solid #f1efed;
+}
+
+.top-header .contact {
+    margin: 0;
+    padding: 5px 0 5px 55px;
+}
+
+.top-header .contact li {
+    display: inline;
+    list-style: none;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #e82327;
+}
+
+.top-header .seo {
+    margin: 0;
+    margin-left: 24%;
+    padding: 5px 5px 5px 0;
+}
+
+.top-header .seo li {
+    display: inline;
+    list-style: none;
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #2b2b34;
+    font-family: "Lato-Heavy";
+    text-transform: uppercase;
+}
+
+.top-header .seo li:nth-last-child(2) {
+    border-right: 0px;
+}
+
+.top-header .seo li a {
+    text-decoration: none;
+}
+
+.top-header .seo li .btn-register span {
+    background: #e82327;
+    color: #fff;
+    text-transform: initial;
+    padding: 5px 7px 5px 7px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.navbar-nav > li > a {
+    font-size: 20px;
+}
+
+.navbar-nav > li {
+    padding: 20px 0px 20px 10px;
+    font-family: "Myriad-Pro";
+}
+
+.navbar-header .logo {
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 140px;
+}
+
+.navbar-header .logo1 {
+    position: absolute;
+    right: 140px;
+    top: 33px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-header .logo img {
+    width: 150px;
+}
+
+.navbar-header .logo1 img {
+    width: 150px;
+}
+
+.navbar-nav > li > a {
+    padding: 0;
+    padding-right: 10px;
+}
+
+.navbar-nav > li > a.last-child {
+    border-right: 0;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #80c802;
+}
+
+.navbar-default .navbar-nav > li:focus, .navbar-default .navbar-nav > li:hover {
+    color: #80c802;
+    transform: scale(1.2);
+}
+
+.navbar-toggle {
+    background-color: #fdd84c;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+
+    /* color: #333; */
+    background-color: unset;
+}
+
+/*
+#header
+*/
+.txtgioithieu {
+    margin-top: 20%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.headergioithieu {
+    background: url(../images/bg_header_02.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.hs_truoc {
+    padding-top: 5%;
+    position: relative;
+    right: 5px;
+    z-index: 1;
+}
+
+.hs_sau {
+    top: 71px;
+    height: 92%;
+    position: relative;
+    left: -112px;
+}
+
+.hs_header {
+    display: flex;
+}
+
+.divleft {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn_dkn {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.81);
+    border-radius: 15px;
+    width: 43%;
+    color: #fff;
+    background: #e82327;
+    position: relative;
+    left: 29%;
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    font-family: "Lato-Heavy";
+}
+
+.btn_dkn a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.divleft h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20%;
+    font-family: "Lato-Regular";
+}
+
+.divleft h1 {
+    position: relative;
+    font-size: 80px;
+    font-family: "Lato-Black";
+    top: -23px;
+}
+
+.divleft h5 {
+    top: -26px;
+    position: relative;
+    font-size: 30px;
+    font-family: "Lato-Bold";
+}
+
+/*
+noi-bat
+*/
+.noi-bat {
+    margin-bottom: 35px;
+}
+
+.text_center {
+    margin-bottom: 25px;
+    background: #36a4dc;
+}
+
+.bg_blue {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* .noi-bat .title {
+padding: 10px 20px 10px 20px;
+background: #defdde;
+color: #86d300;
+border: 2px dashed #fdd84c;
+border-radius: 10px;
+font-size: 22px;
+} */
+.noi-bat h1 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.noi-bat .item img {
+    margin: auto;
+}
+
+.noi-bat ul {
+    text-align: center;
+    position: relative;
+    padding-left: 3px;
+}
+
+.noi-bat ul li {
+    display: inline-flex;
+    *display: inline; /*IE7*/
+    *zoom: 1; /*IE7*/
+    color: white;
+    margin-right: 10px;
+    width: 24%;
+}
+
+.noi-bat .item {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.noi-bat .item h5 {
+    color: #36a4dc;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+}
+
+.noi-bat .item p {
+    word-spacing: 5px;
+    text-align: justify;
+    color: #5b5c5a;
+    line-height: 24px;
+    font-family: "Lato-Regular";
+}
+
+#noibat .carousel-control {
+    background-image: none !important;
+    color: #0396e2;
+}
+
+.slidergioithieu {
+    height: 450px;
+}
+
+/*
+about-new
+*/
+#about_new {
+    margin-bottom: 35px;
+}
+
+.rec_phai {
+    position: relative;
+    padding-left: 65px;
+}
+
+.gioithieu_new {
+    text-transform: uppercase;
+}
+
+.gioithieu_new h2 {
+    color: #0396e2;
+    text-align: center;
+    font-size: 38px;
+    font-family: "Lato-Regular";
+}
+
+.gioithieu_new h1 {
+    color: #0396e2;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lato-Black";
+}
+
+.gioithieu_new p {
+    text-transform: none;
+    font-family: "Lato-Regular";
+    text-align: justify;
+    font-size: 17px;
+}
+
+/* about end */
+
+/* KHOA HOC */
+
+#khoahoc {
+    overflow: hidden;
+}
+
+.bg_khoahoc {
+    background: #ebae07;
+}
+
+.hs_kh {
+    display: flex;
+}
+
+.kh_hs_left {
+    position: relative;
+    left: -150px;
+    margin-top: 20%;
+}
+
+.kh_hs_right {
+    position: absolute;
+    left: 60px;
+    bottom: 0px;
+}
+
+.khoahoc_dk {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.khoahoc_dk h3 {
+    font-family: "Lato-Regular";
+    font-size: 39px;
+    margin-top: 12%;
+}
+
+.khoahoc_dk h1 {
+    font-size: 36px;
+    font-family: "Lato-Black";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.table_khoahoc tr td {
+    font-size: 21px;
+    padding: 10px 11px 10px 0px;
+}
+
+.btn_khoahoc {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.81);
+    text-align: center;
+    border-radius: 15px;
+    width: 38%;
+    color: #fff;
+    background: #e82327;
+    position: relative;
+    left: 0%;
+    margin-top: 9%;
+    font-size: 28px;
+    padding: 5px 10px 5px 10px;
+    font-family: "Lato-Heavy";
+    text-transform: none;
+}
+
+.btn_khoahoc a {
+    text-decoration: unset;
+    color: #fff;
+}
+
+/* KHOA HOC END */
+
+/* Cap Do */
+#capdo {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.capdo_title {
+    color: #0396e2;
+    text-align: center;
+}
+
+.capdo_title .tren {
+    font-family: "Lato-Regular";
+}
+
+.capdo_title .duoi {
+    font-family: "Lato-Black";
+    margin-bottom: 2%;
+    margin-top: -5px;
+}
+
+.line-anh {
+    display: flex;
+    padding-left: 10%;
+}
+
+.line-2-tren, .line-2-giua, .line-2-duoi {
+    margin-bottom: 15px;
+    display: flex
+}
+
+.line-2-tren img, .line-2-giua img, .line-2-duoi img {
+    width: 48%;
+}
+
+#capdo img {
+    cursor: pointer;
+}
+
+.img_modal2 {
+    margin-left: 23%;
+}
+
+.title_modal {
+    color: red;
+}
+
+/* Cap do End */
+
+/* Background child */
+.bg-4-children {
+    background: url(../images/bg_4_child.jpg) no-repeat center;
+    background-size: cover;
+    height: 710px;
+}
+
+#quatang {
+    background: #ebae07;
+    text-align: center;
+    overflow: hidden;
+}
+
+.text-noidung h1 {
+    font-family: "Lato-Black";
+    text-align: center;
+    color: #57291a;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.text-noidung h1 span {
+    color: red;
+    font-size: 115px;
+}
+
+.text-noidung .price_uudai {
+    margin-top: -15px;
+}
+
+.text-noidung ul li {
+    color: #57291a;
+    font-family: "Lato-Black";
+}
+
+.text-noidung ul li span {
+    font-family: "Lato-Medium";
+    font-style: italic;
+}
+
+.text-noidung ul {
+    padding-bottom: 20px;
+    font-size: 23px;
+    padding-left: 24%;
+    text-align: initial;
+    list-style-position: inside;
+}
+
+.quatang_title {
+    margin: auto;
+    padding-top: 2%;
+}
+
+#quatang .item_km {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.col_km_text {
+    text-align: center;
+    position: relative;
+    padding-left: 3px;
+}
+
+#quatang .col_km_text li {
+    display: inline-flex;
+    color: #57291a;
+    margin-right: 10px;
+    width: 30%;
+}
+
+#quatang .item_km img {
+    height: 55px;
+    margin: auto;
+}
+
+#quatang .item_km h5 {
+    color: #57291a;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+}
+
+#quatang .item_km p {
+    margin-top: 20px;
+    word-spacing: 5px;
+    text-align: center;
+    color: #57291a;
+    line-height: 24px;
+    font-family: "Lato-semiBold";
+}
+
+#quatang .item_km p span {
+    font-family: "Lato-Black";
+}
+
+#quatang .btn_khoahoc_km {
+    background: url(../images/bg_btn_03.png) no-repeat center;
+    font-size: 35px;
+    background-size: cover;
+    border-radius: 15px;
+    width: 22%;
+    padding: 2px;
+    margin-left: 35%;
+    margin-bottom: 35px;
+}
+
+#quatang .btn_khoahoc_km a {
+    color: #fff;
+    text-decoration: unset;
+}
+
+/* Guong mat tieu bieu */
+.title_gm h1 {
+    font-family: "Lato-Black";
+    text-align: center;
+    color: #57291a;
+    font-size: 50px;
+}
+
+/* End guong mat tieu bieu */
+#success-story {
+    text-align: center;
+    position: relative;
+    margin-top: 0px;
+}
+
+#success-story .center {
+    z-index: 2;
+}
+
+#success-story .image {
+    margin: auto;
+}
+
+#success-story .item {
+    padding-top: 190px;
+    padding-bottom: 55px;
+    opacity: 1;
+    color: #767777;
+}
+
+#success-story .owl-carousel .owl-stage-outer {
+    overflow: none;
+}
+
+#success-story .center .item {
+    transform: scale(1.2);
+    z-index: 1;
+    opacity: 1;
+}
+
+#success-story > div > div.owl-nav.disabled > button.owl-next {
+    display: none;
+}
+
+#success-story > div > div.owl-nav.disabled > button.owl-prev {
+    display: none;
+}
+
+.wrapper-section {
+    background: url("../images/background.png") no-repeat center;
+    background-size: 104%;
+    padding-bottom: 50px;
+}
+
+/* Cam nhan */
+#success-story .center {
+    overflow: visible !important;
+}
+
+.owl-item {
+    overflow: hidden;
+}
+
+.owl1 .hv {
+    position: absolute;
+    width: 28% !important;
+    left: 35%;
+    top: 8%;
+    z-index: 1;
+}
+
+#success-story .text-tren {
+    text-align: justify;
+    position: relative;
+}
+
+#success-story .text-tren h2 {
+    text-align: center;
+    padding-top: 0%;
+    font-family: "Lato-Black";
+}
+
+#success-story .text-tren h6 {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#success-story .text-duoi {
+    font-family: "Lato-Medium";
+    text-align: justify;
+    padding: 0 15% 0 15%;
+}
+
+/* End Cam nhan  */
+
+/* background chung tay */
+.bg_chungtay {
+    background: url(../images/bg_chungtay_02.jpg) no-repeat center;
+    background-size: cover;
+    height: 980px;
+    width: 102%;
+    position: relative;
+}
+
+.txtchungtay {
+    text-transform: uppercase;
+    color: #fff;
+    left: 10%;
+    bottom: 10%;
+    position: absolute;
+}
+
+.txtchungtay h3 {
+    font-size: 30px;
+    font-family: "Lato-Regular";
+}
+
+.txtchungtay h1 {
+    margin-top: -10px;
+    font-size: 70px;
+    font-family: "Lato-Black";
+}
+
+.txtchungtay h2 {
+    margin-top: -10px;
+    font-size: 30px;
+    font-family: "Lato-Regular";
+}
+
+/* end bg */
+.hoatdong .video {
+    position: relative;
+    height: 300px;
+    border: 4px solid #ef9600;
+    margin: 40px;
+}
+
+.hoatdong .video #video-content {
+    width: 100%;
+    height: 100%;
+}
+
+.img_modal {
+    position: relative;
+    top: -126px;
+    margin-right: 12px;
+}
+
+.modal-body h5 {
+    color: red;
+    font-size: 20px;
+}
+
+.modal-body ul li {
+    font-size: 16px;
+}
+
+.text_capdo6 {
+    font-size: 16px;
+}
+
+.trai-nghiem {
+    text-align: center;
+}
+
+.trai-nghiem .chuthich {
+    color: #0396e2;
+    margin-top: 20px;
+}
+
+.trai-nghiem h1 {
+    text-align: center;
+    color: #0396e2;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.owl-trai-nghiem img {
+    width: 40% !important;
+}
+
+.trai-nghiem img {
+    margin: auto;
+    width: 60%;
+}
+
+.trai-nghiem .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+}
+
+.trai-nghiem .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 25%;
+    top: 40%;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent !important;
+}
+
+/* Phu huynh */
+.title_ph {
+    background: #0396e2;
+}
+
+.title_ph h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title_ph .ph1 {
+    font-family: "Lato-Black";
+}
+
+.title_ph .ph2 {
+    font-family: "Lato-Regular";
+    margin-top: -10px;
+}
+
+.hoatdong {
+    margin-top: 3%;
+}
+
+/* End Phu huynh */
+
+/*section register*/
+.form-register {
+    padding: 5% 25% 5% 25%;
+}
+
+.form-register .btn-register:hover {
+    background-color: #2183e0;
+}
+
+.form-register .btn-register {
+    border-radius: 15px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.81);
+    width: 50%;
+    font-size: 25px;
+    margin-top: 22px;
+    margin-right: 20%;
+}
+
+.register {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+.register img.talk-img {
+    width: 85%;
+    border: 2px solid #ef9600;
+}
+
+.register h4 {
+    font-size: 15px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0396e2;
+    font-family: "Lato-Black";
+}
+
+.register .form-register p {
+    text-transform: uppercase;
+    color: #4c4c4c;
+    font-family: "Lato-Regular";
+    font-size: 25px;
+}
+
+.register .form-register p span {
+    color: #e82327;
+    font-family: "Lato-Black";
+}
+
+.register .form-register input {
+    border-radius: 10px;
+    background: #dfdfdf;
+}
+
+.register .form-register .row {
+    padding-left: 95px;
+    margin-bottom: 10px;
+}
+
+.register .form-register .row select {
+    border-radius: 10px;
+    background: #dfdfdf;
+}
+
+.register h3 {
+    text-transform: none;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+}
+
+/*section footer*/
+.footer {
+    background-color: #e82327;
+    height: 200px;
+}
+
+.logo-footer {
+    margin: 61px 0 0 33px;
+}
+
+.logo-footer1 {
+    width: 100%;
+    margin: 60px 0;
+    height: 60px
+}
+
+.footer-1 {
+    border-right: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 180px;
+}
+
+.footer table tr td {
+    padding: 20px 10px 10px 10px;
+    font-size: 15px;
+}
+
+.footer-2 table {
+    color: #fff;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.footer-2 ul {
+    margin: 10px 0;
+}
+
+.footer-3 {
+    height: 180px;
+    border-left: 1px solid #fff;
+    margin-top: 10px;
+}
+
+/* Mobile */
+@media screen and (min-width:1030px) and (max-width:1099px) {
+    #success-story .text-tren h2 {
+        margin-top: 10%;
+    }
+
+}
+
+@media only screen and (max-width:1100px) {
+    .kh_hs_left {
+        width: 65%;
+    }
+
+    .kh_hs_right {
+        left: 0px;
+    }
+
+    .text-noidung ul {
+        padding-left: 11%;
+    }
+
+    #quatang .item_km {
+        padding-left: 2px;
+        padding-right: 2px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #quatang .col_km_text li {
+        display: inline-flex;
+        color: #57291a;
+        margin-right: 0px;
+        width: 33%;
+    }
+
+    .navbar-nav > li > a {
+        font-size: 15px;
+    }
+
+    .rec_trai {
+        position: relative;
+        left: -12px;
+    }
+
+    .trai-nghiem .owl-carousel .owl-nav button.owl-prev {
+        left: 0%;
+    }
+
+    .trai-nghiem .owl-carousel .owl-nav button.owl-next {
+        right: 0%;
+    }
+
+    .top-header .seo {
+        margin-left: 10%;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .top-header .con1 {
+        position: relative;
+        left: 96px;
+    }
+
+    .top-header .contact {
+        padding: 5px 0 5px 150px;
+    }
+
+    .navbar-header .logo {
+        left: 55px;
+    }
+
+    .navbar-header .logo1 {
+        left: 815px;
+        top: 67px;
+    }
+
+    .image_banner {
+        margin-top: 45px;
+    }
+
+    .img-level {
+        width: 101%;
+    }
+
+    .hs_sau {
+        top: 118px;
+        height: 100%;
+        position: relative;
+        left: -24px;
+    }
+
+    .hs_truoc {
+        padding-top: 27%;
+        position: relative;
+        right: -44px;
+        z-index: 1;
+    }
+
+    .divleft h3 {
+        font-size: 40px;
+        margin-top: 40%;
+    }
+
+    .divleft h1 {
+        font-size: 65px;
+    }
+
+    .divleft h5 {
+        font-size: 30px;
+    }
+
+    .btn_dkn {
+        width: 50%;
+        left: 24%;
+        font-size: 28px;
+    }
+
+    .rec_phai {
+        padding-left: 0px;
+        position: relative;
+        left: 14px;
+    }
+
+    .gioithieu_new h2 {
+        font-size: 35px;
+    }
+
+    .gioithieu_new h1 {
+        margin-top: -4px;
+        font-size: 44px;
+    }
+
+    .khoahoc_dk h3 {
+        font-size: 29px;
+    }
+
+    .khoahoc_dk h1 {
+        font-size: 33px;
+    }
+
+    .table_khoahoc tr td {
+        font-size: 17px;
+        padding: 10px 7px 10px 0px;
+    }
+
+    .btn_khoahoc {
+        width: 42%;
+    }
+
+    .col1_text li {
+        width: 32% !important;
+    }
+
+    .col2_text li {
+        width: 23% !important;
+    }
+
+    .noi-bat .item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .top-header .contact li {
+        font-size: 17px;
+    }
+
+    .top-header .seo li {
+        font-size: 13px;
+    }
+
+    .navbar-nav {
+        padding-left: 24%;
+    }
+
+    .wrapper-section {
+        padding-bottom: 0px;
+    }
+
+    .form-register {
+        padding: 1% 25% 0% 25%;
+    }
+
+    .owl-trai-nghiem img {
+        width: 85% !important;
+    }
+
+    #success-story .text-tren h2 {
+        font-size: 20px;
+    }
+
+    #success-story .text-tren h6 {
+        font-size: 12px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    #success-story .item {
+        padding-top: 105px;
+    }
+
+    #success-story .text-duoi {
+        padding: 5px 30px 20px 30px;
+    }
+
+    .bg_chungtay {
+        width: 103%;
+        height: 685px;
+    }
+
+    .txtchungtay {
+        padding-top: 43%;
+    }
+
+    .bg-4-children {
+        height: 560px;
+    }
+
+    .register img.talk-img {
+        width: 100%;
+    }
+
+    .form-register .img-dangky {
+        width: 75%;
+    }
+
+    .footer table tr td {
+        padding: 10px 10px 10px 10px;
+        font-size: 13px;
+    }
+
+    .logo-footer {
+        margin: 61px 0 0 0px;
+    }
+
+    .line-anh img {
+        width: 159px;
+    }
+
+    .line-anh {
+        padding-left: 15px;
+    }
+
+    #capdo {
+        margin-top: 15px;
+    }
+
+    .quatang_title {
+        margin-left: 11%;
+    }
+
+    #success-story .item {
+        padding-top: 130px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+}
+
+/* End 1100px */
+@media (max-width:768px) {
+    .divleft h1 {
+        font-size: 55px;
+    }
+
+    .navbar-nav > li > a {
+        font-size: 11px;
+    }
+
+    /* .owl-item {
+        display: none;
+    }
+    #success-story .center {
+        display: contents!important;
+    } */
+    .capdo2 {
+        margin: 0 8px 0 8px;
+    }
+
+    .capdo3 {
+        margin-right: 8px;
+    }
+
+    .capdo5 {
+        margin: 0 8px 0 8px;
+    }
+
+    .line-anh img {
+        height: 80px;
+        width: 15%;
+    }
+
+    .quatang_title {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .text-noidung h1 span {
+        font-size: 95px;
+    }
+
+    .text-noidung h1 {
+        font-size: 38px;
+    }
+
+    .text-noidung ul {
+        padding-left: 9%;
+    }
+
+    .hs_truoc {
+        height: 364px;
+        width: 180px;
+        padding-top: 15%;
+        right: 5px;
+        top: 15px;
+    }
+
+    .hs_sau {
+        height: 262px;
+        width: 192px;
+        top: 117px;
+        left: -49px;
+    }
+
+    .top-header .seo {
+        width: 100%;
+        height: 33px;
+        margin-left: 11%;
+    }
+
+    .top-header .contact {
+        padding: 5px 0 5px 93px;
+    }
+
+    .top-header .con1 {
+        position: relative;
+        left: 0px;
+    }
+
+    .gioithieu_new h2 {
+        font-size: 25px;
+    }
+
+    .gioithieu_new h1 {
+        margin-top: -4px;
+        font-size: 32px;
+    }
+
+    .rec_phai {
+        height: 275px;
+    }
+
+    .rec_trai {
+        position: relative;
+        height: 275px;
+        left: -15px;
+    }
+
+    .table_khoahoc tr td {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .btn_khoahoc {
+        width: 52%;
+    }
+
+    .kh_hs_right {
+        left: -6px;
+        height: 430px;
+        margin-top: 8%;
+        position: relative;
+    }
+
+    #quatang .btn_khoahoc_km {
+        width: 35%;
+        margin-left: 31%;
+    }
+
+    .text-noidung ul {
+        padding-left: 4%;
+        font-size: 20px;
+    }
+
+    .khoahoc_dk h3 {
+        font-size: 22px;
+    }
+
+    .khoahoc_dk h1 {
+        font-size: 24px;
+    }
+
+    .khoahoc_dk {
+        position: relative;
+        left: 53px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    #success-story .item {
+        width: 500px;
+        margin-left: 144px;
+        padding-top: 190px;
+    }
+
+    #success-story .image {
+        width: 80%;
+        margin: auto;
+    }
+
+    #success-story .text-tren h2 {
+        font-size: 32px;
+    }
+
+    #success-story .text-tren h6 {
+        font-size: 16px;
+    }
+
+    .text-duoi p {
+        font-size: 21px;
+    }
+
+    .txtchungtay {
+        padding-top: 55%;
+    }
+
+    .trai-nghiem .owl-carousel .owl-nav button.owl-prev {
+        left: 0%;
+    }
+
+    .trai-nghiem .owl-carousel .owl-nav button.owl-next {
+        right: 0%;
+    }
+
+    .form-register {
+        padding: 1% 15% 0% 15%;
+    }
+
+    .register img.talk-img {
+        width: 78%;
+        height: 200px;
+    }
+
+    .top-header .seo li {
+        font-size: 11px;
+    }
+
+    .navbar-nav {
+        padding-left: 22%;
+        font-size: 12px;
+    }
+
+    .con1 {
+        position: relative;
+        width: 85%;
+        left: 00px;
+    }
+
+    .trai-nghiem img {
+        padding-top: 5%;
+    }
+
+    .bg-4-children {
+        height: 495px;
+    }
+
+    .con2 {
+        position: relative;
+    }
+
+    .navbar-header .logo {
+        padding-left: 0px;
+        left: 20px;
+    }
+
+    .navbar-header .logo1 {
+        right: 18px;
+        top: 0px;
+        left: unset;
+    }
+
+    .noi-bat ul {
+        margin-left: 6px;
+    }
+
+    .btn_dkn {
+        top: -17px;
+        width: 64%;
+        left: 19%;
+        font-size: 28px;
+    }
+
+    .noi-bat .item h5 {
+        font-size: 20px;
+    }
+
+    .noi-bat ul li {
+        margin-right: 0px;
+    }
+
+    .col1_text li {
+        width: 33% !important;
+    }
+
+    .col2_text li {
+        width: 24% !important;
+    }
+
+    .noi-bat .item {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .wrapper-section {
+        padding-bottom: 85px;
+    }
+
+    .footer-1 {
+        border-right: unset;
+    }
+
+    .footer-1 .logo-footer {
+        margin-left: 31%;
+        width: 25%;
+    }
+
+    .footer-3 {
+        border-left: unset;
+        height: 80px;
+    }
+
+    .logo-footer {
+        margin: 15px 0 0 0px;
+    }
+
+    .logo-footer1 {
+        width: 80%;
+        margin: 0px 0px 0px 70px;
+    }
+
+    .footer-1 {
+        height: 80px;
+    }
+
+    .footer {
+        background-color: #e82327;
+        height: 345px;
+    }
+
+    .footer-3 .logo-footer {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .wrapper-section {
+        background: linear-gradient(#fdd84c, #5cc58a);
+    }
+
+    #success-story .bg {
+        width: 67%;
+        top: 4%;
+    }
+
+}
+
+@media (max-width:440px) {
+    .item_kmxs img {
+        height: 80px;
+    }
+
+    .item_kmxs p {
+        font-size: 25px;
+        color: #57291a;
+        font-family: "Lato-semiBold";
+    }
+
+    .item_kmxs p span {
+        font-family: "Lato-Black";
+    }
+
+    #quatang .btn_khoahoc_km {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .item_kmxs {
+        padding-bottom: 25px;
+    }
+
+    .logo-footer1 {
+        width: 80%;
+        margin: 0px 0px 0px 36px;
+    }
+
+    .text-noidung ul li span {
+        padding-left: 60px;
+    }
+
+    .khoahoc_dk h1 {
+        font-size: 21px;
+    }
+
+    .table_khoahoc tr td {
+        padding: 5px 13px 5px 0px;
+        font-size: 13px;
+    }
+
+    .khoahoc_dk h3 {
+        margin-top: 6%;
+    }
+
+    .capdo2 {
+        margin: 0 0px 0 15px;
+    }
+
+    .capdo4 {
+        margin: 0 0px 0 15px;
+    }
+
+    .capdo6 {
+        margin: 0 0px 0 15px;
+    }
+
+    .capdo3 {
+        margin-right: 0px;
+    }
+
+    .capdo5 {
+        margin: 0 0px 0 0px;
+    }
+
+    .address-img {
+        width: 100%;
+    }
+
+    .navbar-toggle {
+        margin-right: 0px;
+    }
+
+    #success-story .item {
+        padding-top: 0px;
+        padding-bottom: 60px;
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    #success-story .text-tren h2 {
+        font-size: 28px;
+    }
+
+    #success-story .text-tren h6 {
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    #success-story .text-duoi {
+        padding: 10px 20px 0px 20px;
+        font-size: 10px;
+    }
+
+    .owl1 .hv {
+        position: absolute;
+        width: 30% !important;
+        left: 35%;
+        top: 8%;
+    }
+
+    .con1 {
+        position: relative;
+        width: 95%;
+        left: 3px;
+    }
+
+    .bg_chungtay {
+        width: 108%;
+        height: 302px;
+    }
+
+    .register .form-register .row {
+        padding-left: 0px;
+    }
+
+    .register h3 {
+        font-size: 11px;
+        text-transform: none;
+        margin: 3px 0px 3px 0px;
+    }
+
+    .form-register .btn-register {
+        padding: 5px 15px 5px 15px;
+        width: 75%;
+        margin-right: 0%;
+    }
+
+    .navbar-nav > li > a {
+        padding: 0;
+        border-right: none;
+        padding-right: 10px;
+    }
+
+    #banner1 {
+        margin-top: -37px;
+        overflow: hidden;
+    }
+
+    .noi-bat ul {
+        margin-left: 0px;
+    }
+
+    .noi-bat .item h5 {
+        font-size: 16px;
+    }
+
+    .txtchungtay {
+        padding-top: 41%;
+    }
+
+    .txtchungtay h3 {
+        font-size: 21px;
+    }
+
+    .txtchungtay h1 {
+        font-size: 36px;
+    }
+
+    .txtchungtay h2 {
+        font-size: 18px;
+    }
+
+    .top-header .contact li {
+        font-size: 10px;
+    }
+
+    .top-header .seo {
+        display: none;
+    }
+
+    .navbar-header .logo1 {
+        right: 78px;
+        top: -2px;
+        left: unset;
+    }
+
+    .top-header .contact {
+        display: none;
+        padding: 5px 0 5px 47px;
+    }
+
+    .navbar-header .logo {
+        padding-left: 0px;
+        left: 37px;
+    }
+
+    .divleft h5 {
+        font-size: 29px;
+    }
+
+    .divleft h1 {
+        font-size: 50px;
+    }
+
+    .divleft h3 {
+        font-size: 35px;
+        margin-top: 12%;
+    }
+
+    .btn_dkn {
+        top: 2px;
+        width: 74%;
+        left: 13%;
+        font-size: 30px;
+    }
+
+    .hs_truoc {
+        height: 270px;
+        width: auto;
+        padding-top: 6%;
+        right: 14px;
+        top: 0px;
+    }
+
+    .hs_sau {
+        height: 225px;
+        width: auto;
+        top: 45px;
+        left: -70px;
+    }
+
+    .noi-bat h1 {
+        font-size: 25px;
+    }
+
+    .gioithieu_new h2 {
+        font-size: 20px;
+    }
+
+    .gioithieu_new h1 {
+        font-size: 28px;
+    }
+
+    .rec_phai {
+        height: 440px;
+    }
+
+    .rec_trai {
+        height: 440px;
+        position: relative;
+        left: -14px;
+    }
+
+    .khoahoc_dk {
+        left: 0px;
+    }
+
+    .btn_khoahoc {
+        width: 50%;
+        font-size: 25px;
+        left: 18%;
+        top: -12px;
+    }
+
+    .capdo_title h1 {
+        font-size: 20px;
+    }
+
+    .bg-4-children {
+        height: 290px;
+    }
+
+    .text-noidung h1 span {
+        font-size: 57px;
+    }
+
+    .text-noidung h1 {
+        font-size: 20px;
+    }
+
+    .text-noidung ul {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .title_gm h1 {
+        font-size: 25px;
+    }
+
+    .text-duoi p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .navbar-header .logo {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .navbar-header .logo img {
+        width: 125px;
+    }
+
+    .navbar-header .logo1 img {
+        width: 118px;
+    }
+
+    .noi-bat .title {
+        font-size: 11px;
+    }
+
+    .col1_text li {
+        width: 49% !important;
+    }
+
+    .col2_text li {
+        width: 49% !important;
+    }
+
+    .about .border-top {
+        margin-top: -80px;
+    }
+
+    .about .content {
+        padding: 0 0% 0 0%;
+    }
+
+    .about .form-register .img-hat {
+        width: 18%;
+    }
+
+    .about .form-register .tree-right {
+        width: 32%;
+        bottom: -43px;
+    }
+
+    .about .form-register .tree-left {
+        width: 40%;
+        bottom: -64px;
+    }
+
+    .info h3 {
+        font-size: 17px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .level .content .info {
+        top: -3%;
+        width: 65%;
+    }
+
+    #success-story {
+        margin-top: 100px;
+    }
+
+    #success-story .bg {
+        top: 5%;
+        width: 40%;
+        left: 30%;
+    }
+
+    #success-story .image {
+        width: 75%;
+    }
+
+    .dicounts {
+        min-height: 450px;        /* background : linear-gradient(#fdd84c, #fee78f); */
+    }
+
+    .dicounts .bg {
+        top: 65px;
+        height: 300px;
+    }
+
+    .dicounts .title {
+        position: absolute;
+        top: 18%;
+        width: 89%;
+        left: 11%;
+    }
+
+    #success-story {
+        margin-top: 0px;
+    }
+
+    .form-register img {
+        width: 100%;
+    }
+
+    .form-register {
+        padding: 10% 5% 10% 5%;
+    }
+
+    .register h4 {
+        width: 66%;
+        margin-left: 17%;
+    }
+
+    .img-dangky {
+        width: 300px;
+    }
+
+    .trai-nghiem h1 {
+        font-size: 24px;
+        width: 75%;
+        margin-left: 11%;
+    }
+
+    .register h1 {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .about .form-register .tree-right {
+        right: -13px;
+    }
+
+    .footer {
+        background-color: #e82327;
+        height: 325px;
+    }
+
+    .about .cell.left {
+        width: 33%;
+    }
+
+    .register img.talk-img {
+        width: 90%;
+    }
+
+    .form-register {
+        position: relative;
+        top: -18px;
+    }
+
+    .about p {
+        padding-bottom: 12px;
+    }
+
+    .owl-trai-nghiem .anh_slider {
+        width: 100% !important;
+    }
+
+    .trai-nghiem .owl-carousel .owl-nav button.owl-prev {
+        width: 10%;
+        left: -1%;
+    }
+
+    .trai-nghiem .owl-carousel .owl-nav button.owl-next {
+        right: -1%;
+        width: 10%;
+    }
+
+    .wrapper-section {
+        padding-bottom: 0px;
+    }
+
+    .navbar-nav {
+        padding-left: 10%;
+    }
+
+    .line-anh {
+        padding-left: 0px;
+    }
+
+    .hoatdong .video {
+        margin: 10px 0 10px 0;
+    }
+
+    .noi-bat .item {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+        display: block !important;
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: 0px;
+        position: relative;
+        top: -540px;
+    }
+
+    #success-story .carousel-control {
+        background-image: unset;
+        color: #0396e2;
+    }
+
+    #myCarouselGuongmat .carousel-inner .item img {
+        position: relative;
+        margin: auto;
+        width: 45%;
+    }
+
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        top: 20%;
+    }
+
+    .form-control {
+        font-size: 10px;
+        width: 111%;
+    }
+
+    .footer .text_diachi {
+        width: 50%;
+        margin: auto;
+        color: white;
+    }
+
+    .text_diachi h5 {
+        font-size: 18px;
+    }
+
+    .register h4 {
+        font-size: 10px;
+    }
+
+}
+
+/* iphone X */
+@media (max-width:380px) {
+    .footer {
+        height: 310px;
+    }
+
+    .footer .text_diachi {
+        text-align: center;
+        width: 53%;
+        margin: auto;
+        color: white;
+        margin-top: 45px;
+    }
+
+    .footer-1, .footer-3 {
+        height: 50px;
+    }
+
+    .logo-footer1 {
+        height: 50px;
+    }
+
+    .hs_truoc {
+        height: 249px;
+        width: auto;
+        padding-top: 7%;
+        right: 4px;
+        top: 0px;
+    }
+
+    .hs_sau {
+        height: 194px;
+        width: auto;
+        top: 55px;
+        left: -60px;
+    }
+
+    .divleft h1 {
+        font-size: 48px;
+    }
+
+    .divleft h5 {
+        font-size: 24px;
+    }
+
+    .noi-bat .title {
+        font-size: 10px;
+    }
+
+    .btn_dkn {
+        top: 0px;
+        width: 82%;
+        left: 9%;
+        font-size: 24px;
+    }
+
+    .line-2-tren img, .line-2-giua img, .line-2-duoi img {
+        width: 48%;
+        height: 160px;
+    }
+
+    .td_khoahoc {
+        width: 97px;
+    }
+
+    .table_khoahoc tr td {
+        padding: 5px 5px 5px 0px;
+        font-size: 13px;
+    }
+
+    .noi-bat h1 {
+        font-size: 22px;
+    }
+
+    .gioithieu_new h1 {
+        font-size: 23px;
+    }
+
+    .gioithieu_new p {
+        font-size: 16px;
+    }
+
+    .khoahoc_dk h3 {
+        font-size: 20px;
+    }
+
+    .khoahoc_dk h1 {
+        font-size: 19px;
+    }
+
+    table {
+        line-height: 25px;
+    }
+
+    .btn_khoahoc {
+        width: 65%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .text-noidung .price_uudai {
+        margin-top: 0px;
+    }
+
+    .text-noidung ul {
+        font-size: 16px;
+        line-height: 31px;
+    }
+
+    .about .border-top {
+        margin-top: -73px;
+    }
+
+    .about .form-register .img-hat {
+        position: absolute;
+        right: -12px;
+        top: -20px;
+    }
+
+    #success-story .item {
+        width: 324px;
+        margin-left: 12px;
+    }
+
+    #success-story .text-tren h2 {
+        font-size: 18px;
+        padding-left: 0%;
+    }
+
+    .trai-nghiem h1 {
+        font-size: 21px;
+    }
+
+    .register h1 {
+        font-size: 21px;
+        margin-top: -2px;
+    }
+
+    .register h4 {
+        width: 95%;
+        margin-left: 3%;
+    }
+
+    .address-img {
+        position: relative;
+        width: 100%;
+        left: 0px;
+    }
+
+    #success-story .image {
+        margin-top: 10%;
+        width: 88%;
+    }
+
+    #success-story .bg {
+        width: 40%;
+        top: 10%;
+    }
+
+    .dicounts .bg {
+        top: 31px;
+        height: 330px;
+    }
+
+    .top-header .contact li {
+        font-size: 9px;
+    }
+
+    .rec_phai {
+        left: 15px;
+    }
+
+    .text-noidung h1 span {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width:340px) {
+    .btn_dkn {
+        top: 0px;
+        width: 86%;
+        left: 7%;
+        font-size: 22px;
+    }
+
+    .hs_truoc {
+        height: 217px;
+        width: auto;
+        padding-top: 7%;
+        right: 14px;
+        top: 0px;
+    }
+
+    .hs_sau {
+        height: 180px;
+        width: auto;
+        top: 37px;
+        left: -68px;
+    }
+
+    .noi-bat .item {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .slidergioithieu {
+        height: 465px;
+    }
+
+    .line-2-tren img, .line-2-giua img, .line-2-duoi img {
+        width: 48%;
+        height: 145px;
+    }
+
+    .text-noidung ul {
+        font-size: 14px;
+        line-height: 31px;
+    }
+
+    .text-noidung ul li span {
+        padding-left: 50px;
+    }
+
+    #quatang .btn_khoahoc_km {
+        width: 70%;
+        margin-left: 15%;
+        font-size: 28px;
+    }
+
+    .divleft h3 {
+        font-size: 25px;
+        margin-top: 12%;
+    }
+
+    .divleft h1 {
+        font-size: 35px;
+        top: -20px;
+    }
+
+    .divleft h5 {
+        font-size: 22px;
+    }
+
+    .noi-bat h1 {
+        font-size: 19px;
+        margin-bottom: 21px;
+    }
+
+    .gioithieu_new h2 {
+        font-size: 19px;
+    }
+
+    .gioithieu_new h1 {
+        font-size: 22px;
+    }
+
+    .gioithieu_new p {
+        font-size: 14px;
+    }
+
+    .khoahoc_dk h3 {
+        font-size: 17px;
+    }
+
+    .khoahoc_dk h1 {
+        font-size: 17px;
+    }
+
+    .btn_khoahoc {
+        width: 60%;
+        font-size: 20px;
+        left: 18%;
+        top: -12px;
+    }
+
+    .capdo_title h1 {
+        font-size: 17px;
+    }
+
+    #capdo {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    .bg-4-children {
+        height: 203px;
+    }
+
+    .title_gm h1 {
+        font-size: 23px;
+    }
+
+    .top-header .contact li {
+        font-size: 7px;
+    }
+
+    .noi-bat .title {
+        font-size: 8px;
+    }
+
+    .about .border-top {
+        margin-top: -63px;
+    }
+
+    .about .form-register .tree-right {
+        right: -8px;
+    }
+
+    .about .form-register .tree-left {
+        left: -18px;
+        bottom: -57px;
+    }
+
+    .dicounts .title {
+        position: absolute;
+        top: 16%;
+        width: 86%;
+        left: 11%;
+        height: 244px;
+    }
+
+    #success-story .item {
+        width: 280px;
+        margin-left: 4px;
+        padding-top: 2px;
+        padding-bottom: 36px;
+    }
+
+    #success-story .text-tren h2 {
+        font-size: 18px;
+    }
+
+    #success-story .text-tren h6 {
+        font-size: 12px;
+    }
+
+    #success-story .text-duoi {
+        padding: 10px 5px 0px 5px;
+        font-size: 8px;
+    }
+
+    .register h3 {
+        font-size: 9px;
+    }
+
+    .form-register .row {
+        margin-bottom: 10px;
+    }
+
+    .register h4 {
+        font-size: 11px;
+    }
+
+    .owl1 .hv {
+        position: absolute;
+        width: 42% !important;
+        left: 27%;
+        top: 8%;
+    }
+
+    #success-story .bg {
+        width: 40%;
+        top: 12%;
+    }
+
+    .trai-nghiem h1 {
+        font-size: 23px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .register h1 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .form-register .btn-register {
+        padding: 0px 15px 1px 15px;
+        width: 75%;
+        margin-right: 3%;
+    }
+
+    .navbar-header .logo img {
+        width: 119px;
+    }
+
+    .navbar-header .logo1 img {
+        width: 110px;
+    }
+
+    .navbar-header .logo {
+        padding-left: 0px;
+        left: 9px;
+    }
+
+    .footer {
+        height: 280px;
+    }
+
+    .footer .text_diachi {
+        text-align: center;
+        width: 65%;
+        margin: auto;
+        color: white;
+        margin-top: 20px;
+    }
+
+}
